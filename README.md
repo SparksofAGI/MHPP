@@ -1,5 +1,4 @@
-## The official Repo of the paper [MHPP: Exploring the Capabilities and Limitations of Language
-Models Beyond Basic Code Generation](https://arxiv.org;abs/)
+## The official Repo of the paper [MHPP: Exploring the Capabilities and Limitations of Language Models Beyond Basic Code Generation](https://arxiv.org;abs/)
 
 The dataset will be released soon!
 
