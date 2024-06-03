@@ -1,5 +1,5 @@
 name: "🤗 Model Evaluation Request"
-description: Request EvalPlus maintainers to evaluate your model independently and update it on our leaderboard.
+description: Request MHPP maintainers to evaluate your model independently and update it on our leaderboard.
 title: "🤗 [REQUEST] - FILL_THE_MODEL_NAME_HERE"
 labels: ["model eval"]
 body:
