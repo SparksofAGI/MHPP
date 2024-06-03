@@ -14,11 +14,11 @@ body:
   - type: input
     id: url
     attributes:
-      label: "Model URL"
+      label: "Model URL (Optional)"
       description: Indicate the URL (e.g., huggingface or other release pages) of the model
       placeholder: https://huggingface.co/[???]/[???]
     validations:
-      required: true
+      required: false
   - type: textarea
     id: other
     attributes:
