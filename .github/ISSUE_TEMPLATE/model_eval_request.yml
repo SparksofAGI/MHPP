@@ -24,7 +24,7 @@ body:
     attributes:
       label: "Additional information (Optional)"
       description: Special steps indicating how to run the model with preferably scripts/codes.
-      placeholder: What data type precision should be used? What is the minimal hardware requirement? Can it be accelerated by tools such as vLLM?
+      placeholder: What data type precision should be used? What is the minimal hardware requirement? Can it be accelerated by tools such as vLLM? And you can drop the result file or paste download url here.
     validations:
       required: false
   - type: textarea
