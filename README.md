@@ -4,6 +4,8 @@ The dataset can be found in the data directory, which includes details of each q
 
 The leaderboard is availalable at [MHPP Leaderboard](https://sparksofagi.github.io/MHPP/).
 
+![mhpp_leaderboard](./fig/mhpp_leaderboard.png)
+
 To submit model result:
 
 1. Run model on our dataset in folder /data/, you can either take "prompt" field as input (as we do in paper) or create a new input by adding more user instructions before or after "question" field.
