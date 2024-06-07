@@ -19,3 +19,16 @@ The leaderboard is available at [MHPP Leaderboard](https://sparksofagi.github.io
 
 Thank you for your interest and participation! 😊
 
+
+## 📝 Citation
+
+If you use MHPP in your research, please consider citing us:
+
+```bibtex
+@article{dai2024mhpp,
+  title={MHPP: Exploring the Capabilities and Limitations of Language Models Beyond Basic Code Generation},
+  author={Dai, Jianbo and Lu, Jianqiao and Feng, Yunlong and Ruan, Rongju and Cheng, Ming and Tan, Haochen and Guo, Zhijiang},
+  journal={arXiv preprint arXiv:2405.11430},
+  year={2024}
+}
+```
