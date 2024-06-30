@@ -246,6 +246,7 @@
 
     const theaders = [
       'Model',
+      'Greedy',
       'pass@1',
       'pass@5',
 <!--      'Distraction pass@1',-->
@@ -436,8 +437,9 @@
       table.appendChild(tbody);
     }
 
-    currentUrl = 'mhpp.csv';
+    currentUrl = 'new_mhpp.csv';
     updateTable(plusedTable, currentUrl, [
+        'Greedy',
         'pass@1',
         'pass@5',
 <!--        'Distraction pass@1',-->
