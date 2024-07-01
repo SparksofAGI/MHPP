@@ -7,29 +7,29 @@ Phi 1.5,0.9%,3.7%,5.5%,12.5%,2.9%,8.9%,9.0%,17.8%,5.4%,11.2%,0.6%,2.8%,13.9%,24.
 Phi 2,7.1%,16.3%,9.7%,22.3%,4.6%,14.5%,13.9%,27.0%,8.2%,15.5%,1.3%,5.5%,16.2%,33.2%,8.7%,19.2%,FALSE,https://huggingface.co/microsoft/phi-2,13.6%
 CodeLlama 7B,1.4%,6.0%,2.6%,10.4%,0.7%,3.3%,7.0%,18.3%,5.7%,11.9%,0.3%,1.3%,6.5%,15.8%,3.4%,9.6%,FALSE,https://huggingface.co/meta-llama/CodeLlama-7b-hf,3.6%
 CodeLlama 13B,2.2%,9.2%,3.1%,12.3%,1.6%,7.0%,6.0%,17.7%,5.6%,14.8%,0.8%,3.7%,7.7%,19.4%,3.9%,12.0%,FALSE,https://huggingface.co/meta-llama/CodeLlama-13b-hf CodeLlama 34B,7.1%,20.7%,15.4%,34.2%,3.8%,13.8%,21.2%,43.4%,10.5%,23.7%,1.5%,6.6%,15.0%,33.7%,10.6%,25.1%,FALSE,https://huggingface.co/meta-llama/CodeLlama-34b-hf,5.0%
-codellama 7B instruct,8.2%,20.1%,9.7%,17.8%,8.5%,15.0%,13.2%,23.5%,14.7%,19.1%,2.2%,7.2%,14.2%,25.7%,10.1%,18.4%,TRUE,https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf,8.6%
-codellama 13B instruct,11.0%,22.2%,11.9%,17.2%,3.8%,9.9%,15.3%,26.1%,13.1%,18.9%,1.1%,4.7%,19.4%,26.4%,10.8%,17.9%,TRUE,https://huggingface.co/meta-llama/CodeLlama-13b-Instruct-hf,15.0%
-codellama 34B instruct,6.0%,15.5%,11.7%,17.3%,7.2%,11.3%,23.0%,35.8%,9.3%,14.4%,0.8%,3.5%,17.0%,23.7%,10.7%,17.4%,TRUE,https://huggingface.co/meta-llama/CodeLlama-34b-Instruct-hf,16.4%
-codellama 7B py,1.2%,5.5%,3.0%,11.8%,0.6%,2.6%,6.9%,18.6%,5.4%,11.8%,0.4%,2.0%,4.9%,12.0%,3.2%,9.2%,FALSE,https://huggingface.co/meta-llama/CodeLlama-7b-Python-hf,3.6%
-codellama 13B py,1.9%,7.4%,6.4%,18.5%,1.2%,5.2%,9.9%,23.5%,6.3%,12.9%,0.6%,2.9%,9.8%,22.1%,5.2%,13.2%,FALSE,https://huggingface.co/meta-llama/CodeLlama-13b-Python-hf,5.0%
-codellama 34B py,8.0%,24.2%,13.6%,32.4%,2.5%,10.5%,19.6%,43.4%,9.9%,20.6%,2.0%,9.0%,14.2%,32.6%,10.0%,24.7%,FALSE,https://huggingface.co/meta-llama/CodeLlama-34b-Python-hf,9.3%
-deepseek instruct 1.3B,11.2%,22.9%,12.5%,24.9%,7.3%,18.2%,21.8%,36.7%,11.7%,19.3%,0.7%,3.3%,15.2%,33.2%,11.5%,22.7%,TRUE,https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct,11.4%
-deepseek instruct 6.7B,17.9%,33.6%,29.6%,43.2%,15.5%,30.8%,36.5%,60.8%,22.7%,37.1%,8.3%,25.0%,36.8%,60.1%,23.9%,41.5%,TRUE,https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct,22.9%
-deepseek instruct 33B,26.8%,39.2%,35.4%,52.9%,20.6%,38.6%,51.8%,69.3%,31.3%,45.9%,14.6%,34.7%,39.2%,64.3%,31.4%,49.3%,TRUE,https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct,38.6%
+CodeLlama 7B instruct,8.2%,20.1%,9.7%,17.8%,8.5%,15.0%,13.2%,23.5%,14.7%,19.1%,2.2%,7.2%,14.2%,25.7%,10.1%,18.4%,TRUE,https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf,8.6%
+CodeLlama 13B instruct,11.0%,22.2%,11.9%,17.2%,3.8%,9.9%,15.3%,26.1%,13.1%,18.9%,1.1%,4.7%,19.4%,26.4%,10.8%,17.9%,TRUE,https://huggingface.co/meta-llama/CodeLlama-13b-Instruct-hf,15.0%
+CodeLlama 34B instruct,6.0%,15.5%,11.7%,17.3%,7.2%,11.3%,23.0%,35.8%,9.3%,14.4%,0.8%,3.5%,17.0%,23.7%,10.7%,17.4%,TRUE,https://huggingface.co/meta-llama/CodeLlama-34b-Instruct-hf,16.4%
+CodeLlama 7B py,1.2%,5.5%,3.0%,11.8%,0.6%,2.6%,6.9%,18.6%,5.4%,11.8%,0.4%,2.0%,4.9%,12.0%,3.2%,9.2%,FALSE,https://huggingface.co/meta-llama/CodeLlama-7b-Python-hf,3.6%
+CodeLlama 13B py,1.9%,7.4%,6.4%,18.5%,1.2%,5.2%,9.9%,23.5%,6.3%,12.9%,0.6%,2.9%,9.8%,22.1%,5.2%,13.2%,FALSE,https://huggingface.co/meta-llama/CodeLlama-13b-Python-hf,5.0%
+CodeLlama 34B py,8.0%,24.2%,13.6%,32.4%,2.5%,10.5%,19.6%,43.4%,9.9%,20.6%,2.0%,9.0%,14.2%,32.6%,10.0%,24.7%,FALSE,https://huggingface.co/meta-llama/CodeLlama-34b-Python-hf,9.3%
+Deepseek instruct 1.3B,11.2%,22.9%,12.5%,24.9%,7.3%,18.2%,21.8%,36.7%,11.7%,19.3%,0.7%,3.3%,15.2%,33.2%,11.5%,22.7%,TRUE,https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct,11.4%
+Deepseek instruct 6.7B,17.9%,33.6%,29.6%,43.2%,15.5%,30.8%,36.5%,60.8%,22.7%,37.1%,8.3%,25.0%,36.8%,60.1%,23.9%,41.5%,TRUE,https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct,22.9%
+Deepseek instruct 33B,26.8%,39.2%,35.4%,52.9%,20.6%,38.6%,51.8%,69.3%,31.3%,45.9%,14.6%,34.7%,39.2%,64.3%,31.4%,49.3%,TRUE,https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct,38.6%
 WizardCoder-33B-V1.1,25.6%,39.9%,34.5%,53.7%,19.8%,36.3%,48.5%,67.5%,30.6%,44.0%,14.5%,37.7%,39.8%,62.0%,30.5%,48.7%,TRUE,https://huggingface.co/WizardLM/WizardCoder-33B-V1.1,31.4%
 WizardCoder-Python-34B-V1.0,12.6%,28.3%,21.4%,38.2%,7.1%,16.9%,20.2%,41.1%,11.9%,25.6%,3.3%,14.0%,23.8%,45.1%,14.4%,29.9%,TRUE,https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0,22.9%
 gpt-3.5-turbo,28.2%,38.8%,33.7%,45.8%,28.6%,47.2%,37.6%,57.9%,25.3%,39.2%,15.9%,29.1%,44.5%,63.5%,30.6%,45.9%,TRUE,https://openai.com/blog/new-models-and-developer-products-announced-at-devday,27.9%
 gpt-4-1106-preview,45.0%,58.3%,61.6%,73.4%,32.4%,49.3%,55.4%,78.2%,44.3%,61.9%,37.5%,64.2%,58.2%,74.6%,47.8%,65.7%,TRUE,https://openai.com/blog/new-models-and-developer-products-announced-at-devday,53.6%
-Qwen2-1.5B,,,,,,,,,,,,,,,,,,,6.4%
-Qwen2-7B,,,,,,,,,,,,,,,,,,,27.1%
-Qwen2-57B-A14B,,,,,,,,,,,,,,,,,,,18.6%
-Qwen2-72B,,,,,,,,,,,,,,,,,,,41.4%
-gpt4o,,,,,,,,,,,,,,,,,,,55.0%
-mistral_large,,,,,,,,,,,,,,,,,,,26.4%
-mistral_medium,,,,,,,,,,,,,,,,,,,17.1%
-CodeStral,,,,,,,,,,,,,,,,,,,33.6%
-deepseek_chat_v2,,,,,,,,,,,,,,,,,,,38.6%
-DeepSeek-Coder-V2-Instruct,,,,,,,,,,,,,,,,,,,48.6%
-claude sonnet 3.5,,,,,,,,,,,,,,,,,,,57.9%
-claude sonnet 3,,,,,,,,,,,,,,,,,,,31.4%
-claude haiku,,,,,,,,,,,,,,,,,,,27.1%
+Qwen2-1.5B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/Qwen/Qwen2-1.5B-Instruct,6.4%
+Qwen2-7B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/Qwen/Qwen2-7B-Instruct,27.1%
+Qwen2-57B-A14B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct,18.6%
+Qwen2-72B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/Qwen/Qwen2-72B-Instruct,41.4%
+GPT-4o(gpt-4o-2024-05-13),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://openai.com/index/hello-gpt-4o/,55.0%
+Mistral Large,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/mistral-large/,26.4%
+Mistral Medium,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://docs.mistral.ai/getting-started/models/,17.1%
+CodeStral,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/codestral/,33.6%
+Deepseek V2 Chat,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat,38.6%
+DeepSeek-Coder-V2-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct,48.6%
+Claude3.5 Sonnet,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.anthropic.com/news/claude-3-5-sonnet,57.9%
+Claude3 Sonnet,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.anthropic.com/news/claude-3-family,31.4%
+Claude3 Haiku,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.anthropic.com/news/claude-3-family,27.1%
