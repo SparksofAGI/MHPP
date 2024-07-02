@@ -33,3 +33,4 @@ DeepSeek-Coder-V2-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface
 Claude 3.5 Sonnet,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.anthropic.com/news/claude-3-5-sonnet,57.9%
 Claude 3 Sonnet,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.anthropic.com/news/claude-3-family,31.4%
 Claude 3 Haiku,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.anthropic.com/news/claude-3-family,27.1%
+Llama 3 8B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct,23.6%
