@@ -16,11 +16,12 @@ The leaderboard is available at [MHPP Leaderboard](https://sparksofagi.github.io
 ```shell
 curl -F "file=@file_name.jsonl" http://52.155.102.219:3000/upload
 # Example
-curl -F "file=@gpt4o_2024_05_13.jsonl" http://52.155.102.219:3000/upload
+# curl -F "file=@gpt4o_2024_05_13.jsonl" http://52.155.102.219:3000/upload
 ```
-4. (Optional) Click "[File a request](https://github.com/SparksofAGI/MHPP/issues/new?assignees=&labels=model+eval&projects=&template=model_eval_request.yml&title=💡+%5BREQUEST%5D+-+%3CMODEL_NAME%3E)" on the leaderboard page to create an issue, fill in other necessary information and submit. 📤
-5. Wait. ⏳
-6. Get your model result with a detailed report. 📊
+4. Wait. ⏳
+5. Get your model result with a detailed report. 📊
+6. (Optional) If you wish to have your result featured on the leaderboard, or if you have any further questions, please click "[File a request](https://github.com/SparksofAGI/MHPP/issues/new?assignees=&labels=model+eval&projects=&template=model_eval_request.yml&title=💡+%5BREQUEST%5D+-+%3CMODEL_NAME%3E)" on the leaderboard page. This will allow you to create an issue, fill in the necessary information, and submit it. 📤
+
 
 Thank you for your interest and participation! 😊
 
