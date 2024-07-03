@@ -14,17 +14,17 @@ body:
   - type: input
     id: url
     attributes:
-      label: "Model URL (Optional)"
+      label: "Model URL"
       description: Indicate the URL (e.g., huggingface or other release pages) of the model
       placeholder: https://huggingface.co/[???]/[???]
     validations:
-      required: false
+      required: true
   - type: textarea
     id: other
     attributes:
-      label: "Model Response"
-      description: Update you result in jsonl format.
-      placeholder: Please ensure uploaded file includes the question ID, function name and model response in each line.
+      label: "Additional information (Optional)"
+      description: Add more information about preferably settings.
+      placeholder: Which specfic instruction should we use? What data type precision should be used? What is the minimal hardware requirement?
     validations:
       required: true 
   - type: textarea
