@@ -26,7 +26,7 @@ body:
       description: Add more information about preferably settings.
       placeholder: Which specfic instruction should we use? What data type precision should be used? What is the minimal hardware requirement?
     validations:
-      required: true 
+      required: false 
   - type: textarea
     id: decomtamination
     attributes:
