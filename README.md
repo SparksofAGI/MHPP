@@ -11,9 +11,14 @@ The leaderboard is available at [MHPP Leaderboard](https://sparksofagi.github.io
 ### To submit model results:
 
 1. Run your model on our dataset in the `/data/` folder. You can either take the "prompt" field as input (as we do in the paper) or create a new input by adding more user instructions before or after the "question" field. 💻
-2. Save the result in JSONL format. Remember to include the question ID, function name, and model response in each line. 📝
-3. Click "[File a request](https://github.com/SparksofAGI/MHPP/issues/new?assignees=&labels=model+eval&projects=&template=model_eval_request.yml&title=💡+%5BREQUEST%5D+-+%3CMODEL_NAME%3E)" on the leaderboard page to create an issue, and upload the JSONL file in the "Model Response" part. 📤
-4. Fill in other necessary information and submit. 📄
+2. Save the result in JSONL format. Each line should at least contain 'function_name', 'prompt', 'difficulty_types', and 'response'.
+3. Run command below to upload your JSONL file to our server, remember to replace "file_name" to your real filename:
+```shell
+curl -F "file=@file_name.jsonl" http://52.155.102.219:3000/upload
+# Example
+curl -F "file=@gpt4o_2024_05_13.jsonl" http://52.155.102.219:3000/upload
+```
+4. (Optional) Click "[File a request](https://github.com/SparksofAGI/MHPP/issues/new?assignees=&labels=model+eval&projects=&template=model_eval_request.yml&title=💡+%5BREQUEST%5D+-+%3CMODEL_NAME%3E)" on the leaderboard page to create an issue, fill in other necessary information and submit. 📤
 5. Wait. ⏳
 6. Get your model result with a detailed report. 📊
 
