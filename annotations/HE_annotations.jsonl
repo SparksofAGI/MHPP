@@ -1,0 +1,164 @@
+{"id": 0, "function_name": "has_close_elements", "challenge_category": ["Basic"]}
+{"id": 1, "function_name": "separate_paren_groups", "challenge_category": ["Complex"]}
+{"id": 2, "function_name": "truncate_number", "challenge_category": ["Codesense"]}
+{"id": 3, "function_name": "below_zero", "challenge_category": ["Commonsense"]}
+{"id": 4, "function_name": "mean_absolute_deviation", "challenge_category": ["Redefinition"]}
+{"id": 5, "function_name": "intersperse", "challenge_category": ["Basic", "Cornercase"]}
+{"id": 6, "function_name": "parse_nested_parens", "challenge_category": ["Complex"]}
+{"id": 7, "function_name": "filter_by_substring", "challenge_category": ["Basic", "Codesense"]}
+{"id": 8, "function_name": "sum_product", "challenge_category": ["Basic"]}
+{"id": 9, "function_name": "rolling_max", "challenge_category": ["Distraction", "Complex"]}
+{"id": 10, "function_name": "make_palindrome", "challenge_category": ["Complex"]}
+{"id": 11, "function_name": "string_xor", "challenge_category": ["Commonsense"]}
+{"id": 12, "function_name": "longest", "challenge_category": ["Cornercase", "Complex"]}
+{"id": 13, "function_name": "greatest_common_divisor", "challenge_category": ["Shortcut", "Codesense"]}
+{"id": 14, "function_name": "all_prefixes", "challenge_category": ["Basic", "Complex"]}
+{"id": 15, "function_name": "string_sequence", "challenge_category": ["Basic", "Codesense"]}
+{"id": 16, "function_name": "count_distinct_characters", "challenge_category": ["Codesense"]}
+{"id": 17, "function_name": "parse_music", "challenge_category": ["Redefinition"]}
+{"id": 18, "function_name": "how_many_times", "challenge_category": ["Basic"]}
+{"id": 19, "function_name": "sort_numbers", "challenge_category": ["Basic", "Commonsense"]}
+{"id": 20, "function_name": "find_closest_elements", "challenge_category": ["Complex"]}
+{"id": 21, "function_name": "rescale_to_unit", "challenge_category": ["Commonsense", "Codesense"]}
+{"id": 22, "function_name": "filter_integers", "challenge_category": ["Codesense"]}
+{"id": 23, "function_name": "strlen", "challenge_category": ["Basic", "Codesense"]}
+{"id": 24, "function_name": "largest_divisor", "challenge_category": ["Codesense"]}
+{"id": 25, "function_name": "factorize", "challenge_category": ["Shortcut", "Commonsense", "Codesense"]}
+{"id": 26, "function_name": "remove_duplicates", "challenge_category": ["Codesense"]}
+{"id": 27, "function_name": "flip_case", "challenge_category": ["Codesense"]}
+{"id": 28, "function_name": "concatenate", "challenge_category": ["Codesense"]}
+{"id": 29, "function_name": "filter_by_prefix", "challenge_category": ["Codesense"]}
+{"id": 30, "function_name": "get_positive", "challenge_category": ["Basic"]}
+{"id": 31, "function_name": "is_prime", "challenge_category": ["Commonsense", "Codesense"]}
+{"id": 32, "function_name": "find_zero", "challenge_category": ["Commonsense", "Complex"]}
+{"id": 33, "function_name": "sort_third", "challenge_category": ["Shortcut", "Complex"]}
+{"id": 34, "function_name": "unique", "challenge_category": ["Codesense"]}
+{"id": 35, "function_name": "max_element", "challenge_category": ["Basic", "Codesense"]}
+{"id": 36, "function_name": "fizz_buzz", "challenge_category": ["Complex"]}
+{"id": 37, "function_name": "sort_even", "challenge_category": ["Complex"]}
+{"id": 38, "function_name": "decode_cyclic", "challenge_category": ["Redefinition", "Commonsense"]}
+{"id": 39, "function_name": "prime_fib", "challenge_category": ["Commonsense", "Complex"]}
+{"id": 40, "function_name": "triples_sum_to_zero", "challenge_category": ["Distraction", "Complex"]}
+{"id": 41, "function_name": "car_race_collision", "challenge_category": ["Commonsense"]}
+{"id": 42, "function_name": "incr_list", "challenge_category": ["Basic"]}
+{"id": 43, "function_name": "pairs_sum_to_zero", "challenge_category": ["Distraction", "Complex"]}
+{"id": 44, "function_name": "change_base", "challenge_category": ["Complex", "Codesense"]}
+{"id": 45, "function_name": "triangle_area", "challenge_category": ["Commonsense"]}
+{"id": 46, "function_name": "fib4", "challenge_category": ["Redefinition", "Cornercase"]}
+{"id": 47, "function_name": "median", "challenge_category": ["Codesense"]}
+{"id": 48, "function_name": "is_palindrome", "challenge_category": ["Commonsense", "Codesense"]}
+{"id": 49, "function_name": "modp", "challenge_category": ["Shortcut", "Commonsense"]}
+{"id": 50, "function_name": "decode_shift", "challenge_category": ["Redefinition", "Complex", "Codesense"]}
+{"id": 51, "function_name": "remove_vowels", "challenge_category": ["Commonsense"]}
+{"id": 52, "function_name": "below_threshold", "challenge_category": ["Basic"]}
+{"id": 53, "function_name": "add", "challenge_category": ["Basic"]}
+{"id": 54, "function_name": "same_chars", "challenge_category": ["Basic", "Codesense"]}
+{"id": 55, "function_name": "fib", "challenge_category": ["Commonsense", "Cornercase"]}
+{"id": 56, "function_name": "correct_bracketing", "challenge_category": ["Codesense"]}
+{"id": 57, "function_name": "monotonic", "challenge_category": ["Shortcut", "Codesense"]}
+{"id": 58, "function_name": "common", "challenge_category": ["Complex"]}
+{"id": 59, "function_name": "largest_prime_factor", "challenge_category": ["Commonsense", "Complex"]}
+{"id": 60, "function_name": "sum_to_n", "challenge_category": ["Shortcut", "Codesense"]}
+{"id": 61, "function_name": "correct_bracketing", "challenge_category": ["Codesense"]}
+{"id": 62, "function_name": "derivative", "challenge_category": ["Commonsense"]}
+{"id": 63, "function_name": "fibfib", "challenge_category": ["Redefinition", "Cornercase"]}
+{"id": 64, "function_name": "vowels_count", "challenge_category": ["Redefinition"]}
+{"id": 65, "function_name": "circular_shift", "challenge_category": ["Complex", "Codesense"]}
+{"id": 66, "function_name": "digitSum", "challenge_category": ["Commonsense", "Codesense"]}
+{"id": 67, "function_name": "fruit_distribution", "challenge_category": ["Redefinition"]}
+{"id": 68, "function_name": "pluck", "challenge_category": ["Redefinition", "Cornercase", "Complex"]}
+{"id": 69, "function_name": "search", "challenge_category": ["Complex"]}
+{"id": 70, "function_name": "strange_sort_list", "challenge_category": ["Redefinition"]}
+{"id": 71, "function_name": "triangle_area", "challenge_category": ["Shortcut", "Cornercase", "Complex"]}
+{"id": 72, "function_name": "will_it_fly", "challenge_category": ["Redefinition", "Complex"]}
+{"id": 73, "function_name": "smallest_change", "challenge_category": ["Basic", "Redefinition"]}
+{"id": 74, "function_name": "total_match", "challenge_category": ["Basic"]}
+{"id": 75, "function_name": "is_multiply_prime", "challenge_category": ["Complex"]}
+{"id": 76, "function_name": "is_simple_power", "challenge_category": ["Basic", "Redefinition"]}
+{"id": 77, "function_name": "iscube", "challenge_category": ["Shortcut", "Commonsense", "Codesense"]}
+{"id": 78, "function_name": "hex_key", "challenge_category": ["Redefinition"]}
+{"id": 79, "function_name": "decimal_to_binary", "challenge_category": ["Basic", "Codesense"]}
+{"id": 80, "function_name": "is_happy", "challenge_category": ["Redefinition", "Cornercase"]}
+{"id": 81, "function_name": "numerical_letter_grade", "challenge_category": ["Basic", "Redefinition"]}
+{"id": 82, "function_name": "prime_length", "challenge_category": ["Commonsense", "Cornercase"]}
+{"id": 83, "function_name": "starts_one_ends", "challenge_category": ["Shortcut"]}
+{"id": 84, "function_name": "solve", "challenge_category": ["Codesense"]}
+{"id": 85, "function_name": "add", "challenge_category": ["Complex", "Codesense"]}
+{"id": 86, "function_name": "anti_shuffle", "challenge_category": ["Redefinition", "Complex"]}
+{"id": 87, "function_name": "get_row", "challenge_category": ["Redefinition", "Complex"]}
+{"id": 88, "function_name": "sort_array", "challenge_category": ["Cornercase", "Codesense"]}
+{"id": 89, "function_name": "encrypt", "challenge_category": ["Redefinition", "Commonsense"]}
+{"id": 90, "function_name": "next_smallest", "challenge_category": ["Cornercase", "Codesense"]}
+{"id": 91, "function_name": "is_bored", "challenge_category": ["Redefinition", "Codesense"]}
+{"id": 92, "function_name": "any_int", "challenge_category": ["Basic", "Codesense"]}
+{"id": 93, "function_name": "encode", "challenge_category": ["Commonsense", "Complex", "Codesense"]}
+{"id": 94, "function_name": "skjkasdkd", "challenge_category": ["Complex"]}
+{"id": 95, "function_name": "check_dict_case", "challenge_category": ["Cornercase", "Codesense"]}
+{"id": 96, "function_name": "count_up_to", "challenge_category": ["Complex"]}
+{"id": 97, "function_name": "multiply", "challenge_category": ["Basic", "Codesense"]}
+{"id": 98, "function_name": "count_upper", "challenge_category": ["Commonsense", "Complex"]}
+{"id": 99, "function_name": "closest_integer", "challenge_category": ["Redefinition", "Codesense"]}
+{"id": 100, "function_name": "make_a_pile", "challenge_category": ["Redefinition"]}
+{"id": 101, "function_name": "words_string", "challenge_category": ["Cornercase", "Codesense"]}
+{"id": 102, "function_name": "choose_num", "challenge_category": ["Cornercase"]}
+{"id": 103, "function_name": "rounded_avg", "challenge_category": ["Cornercase", "Complex", "Codesense"]}
+{"id": 104, "function_name": "unique_digits", "challenge_category": ["Complex"]}
+{"id": 105, "function_name": "by_length", "challenge_category": ["Redefinition", "Cornercase", "Codesense"]}
+{"id": 106, "function_name": "f", "challenge_category": ["Complex"]}
+{"id": 107, "function_name": "even_odd_palindrome", "challenge_category": ["Complex"]}
+{"id": 108, "function_name": "count_nums", "challenge_category": ["Basic"]}
+{"id": 109, "function_name": "move_one_ball", "challenge_category": ["Redefinition"]}
+{"id": 110, "function_name": "exchange", "challenge_category": ["Shortcut", "Complex"]}
+{"id": 111, "function_name": "histogram", "challenge_category": ["Basic", "Codesense"]}
+{"id": 112, "function_name": "reverse_delete", "challenge_category": ["Commonsense", "Complex"]}
+{"id": 113, "function_name": "odd_count", "challenge_category": ["Complex"]}
+{"id": 114, "function_name": "minSubArraySum", "challenge_category": ["Shortcut"]}
+{"id": 115, "function_name": "max_fill", "challenge_category": ["Redefinition"]}
+{"id": 116, "function_name": "sort_array", "challenge_category": ["Commonsense", "Codesense"]}
+{"id": 117, "function_name": "select_words", "challenge_category": ["Commonsense", "Complex"]}
+{"id": 118, "function_name": "get_closest_vowel", "challenge_category": ["Commonsense", "Cornercase", "Complex"]}
+{"id": 119, "function_name": "match_parens", "challenge_category": ["Redefinition"]}
+{"id": 120, "function_name": "maximum", "challenge_category": ["Shortcut", "Codesense"]}
+{"id": 121, "function_name": "solution", "challenge_category": ["Complex", "Codesense"]}
+{"id": 122, "function_name": "add_elements", "challenge_category": ["Basic"]}
+{"id": 123, "function_name": "get_odd_collatz", "challenge_category": ["Redefinition", "Commonsense"]}
+{"id": 124, "function_name": "valid_date", "challenge_category": ["Complex"]}
+{"id": 125, "function_name": "split_words", "challenge_category": ["Complex"]}
+{"id": 126, "function_name": "is_sorted", "challenge_category": ["Complex"]}
+{"id": 127, "function_name": "intersection", "challenge_category": ["Commonsense", "Complex"]}
+{"id": 128, "function_name": "prod_signs", "challenge_category": ["Cornercase", "Complex"]}
+{"id": 129, "function_name": "minPath", "challenge_category": ["Redefinition", "Shortcut", "Complex"]}
+{"id": 130, "function_name": "tri", "challenge_category": ["Redefinition"]}
+{"id": 131, "function_name": "digits", "challenge_category": ["Complex"]}
+{"id": 132, "function_name": "is_nested", "challenge_category": ["Complex"]}
+{"id": 133, "function_name": "sum_squares", "challenge_category": ["Basic", "Codesense"]}
+{"id": 134, "function_name": "check_if_last_char_is_a_letter", "challenge_category": ["Codesense"]}
+{"id": 135, "function_name": "can_arrange", "challenge_category": ["Basic"]}
+{"id": 136, "function_name": "largest_smallest_integers", "challenge_category": ["Codesense"]}
+{"id": 137, "function_name": "compare_one", "challenge_category": ["Redefinition", "Commonsense", "Codesense"]}
+{"id": 138, "function_name": "is_equal_to_sum_even", "challenge_category": ["Shortcut"]}
+{"id": 139, "function_name": "special_factorial", "challenge_category": ["Redefinition"]}
+{"id": 140, "function_name": "fix_spaces", "challenge_category": ["Complex"]}
+{"id": 141, "function_name": "file_name_check", "challenge_category": ["Redefinition", "Commonsense", "Complex"]}
+{"id": 142, "function_name": "sum_squares", "challenge_category": ["Complex"]}
+{"id": 143, "function_name": "words_in_sentence", "challenge_category": ["Commonsense", "Complex"]}
+{"id": 144, "function_name": "simplify", "challenge_category": ["Commonsense"]}
+{"id": 145, "function_name": "order_by_points", "challenge_category": ["Complex"]}
+{"id": 146, "function_name": "specialFilter", "challenge_category": ["Complex"]}
+{"id": 147, "function_name": "get_max_triples", "challenge_category": ["Complex"]}
+{"id": 148, "function_name": "bf", "challenge_category": ["Redefinition", "Complex"]}
+{"id": 149, "function_name": "sorted_list_sum", "challenge_category": ["Complex", "Codesense"]}
+{"id": 150, "function_name": "x_or_y", "challenge_category": ["Commonsense", "Cornercase"]}
+{"id": 151, "function_name": "double_the_difference", "challenge_category": ["Complex"]}
+{"id": 152, "function_name": "compare", "challenge_category": ["Distraction"]}
+{"id": 153, "function_name": "Strongest_Extension", "challenge_category": ["Redefinition", "Complex"]}
+{"id": 154, "function_name": "cycpattern_check", "challenge_category": ["Commonsense", "Codesense"]}
+{"id": 155, "function_name": "even_odd_count", "challenge_category": ["Basic"]}
+{"id": 156, "function_name": "int_to_mini_roman", "challenge_category": ["Commonsense"]}
+{"id": 157, "function_name": "right_angle_triangle", "challenge_category": ["Commonsense"]}
+{"id": 158, "function_name": "find_max", "challenge_category": ["Commonsense", "Codesense"]}
+{"id": 159, "function_name": "eat", "challenge_category": ["Basic", "Redefinition"]}
+{"id": 160, "function_name": "do_algebra", "challenge_category": ["Redefinition", "Codesense"]}
+{"id": 161, "function_name": "solve", "challenge_category": ["Complex"]}
+{"id": 162, "function_name": "string_to_md5", "challenge_category": ["Codesense"]}
+{"id": 163, "function_name": "generate_integers", "challenge_category": ["Codesense"]}
