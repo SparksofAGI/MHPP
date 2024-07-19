@@ -38,3 +38,5 @@ Llama 3 8B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/met
 Phi-3-small,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/microsoft/Phi-3-small-128k-instruct,21.4%
 Phi-3-medium,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/microsoft/Phi-3-medium-128k-instruct,27.1%
 GPT-4o mini,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/,51.4%
+Gemini 1.5 Flash,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://deepmind.google/technologies/gemini/pro/,31.4%
+Gemini 1.5 Pro,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://deepmind.google/technologies/gemini/pro/,42.9%
