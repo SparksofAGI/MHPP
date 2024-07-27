@@ -41,3 +41,7 @@ GPT-4o mini,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://openai.com/index/gpt-4o-mi
 Gemini 1.5 Flash,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://deepmind.google/technologies/gemini/pro/,31.4%
 Gemini 1.5 Pro,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://deepmind.google/technologies/gemini/pro/,42.9%
 DeepSeek-V2-0628,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat,48.6%
+Mistral NeMo 12B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/mistral-nemo/,21.4%
+Mistral Large 2 123B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/mistral-large-2407/,50.7%
+DeepSeek-Coder-V2-0724,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct,52.9%
+Codestral Mamba (7B),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/codestral-mamba/,25.0%
