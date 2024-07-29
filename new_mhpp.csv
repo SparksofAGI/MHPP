@@ -27,7 +27,7 @@ Qwen2-72B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/Qwen
 GPT-4o (gpt-4o-2024-05-13),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://openai.com/index/hello-gpt-4o/,55.0%
 Mistral Large,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/mistral-large/,26.4%
 Mistral Medium,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://docs.mistral.ai/getting-started/models/,17.1%
-CodeStral,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/codestral/,33.6%
+CodeStral (22B),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/codestral/,33.6%
 DeepSeek-V2-Chat,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat,38.6%
 DeepSeek-Coder-V2-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct,48.6%
 Claude 3.5 Sonnet,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.anthropic.com/news/claude-3-5-sonnet,57.9%
