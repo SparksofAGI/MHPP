@@ -18,8 +18,21 @@ def read_excel():
     data = [
         {"model": x,
          "total_greedy": f"{y * 100:.1f}%",
-         "link": z} for x, y, z in zip(
-            df.iloc[:, 1].tolist(), df.iloc[:, 10].tolist(), df.iloc[:,11].tolist())
+         "link": z,
+         "distraction_greedy": distraction_greedy,
+         "redefination_greedy": redefination_greedy,
+         "shortcut_greedy": shortcut_greedy,
+         "commonsense_greedy": commonsense_greedy,
+         "cornercase_greedy": cornercase_greedy,
+         "complex_greedy": complex_greedy,
+         "codesense_greedy": codesense_greedy,
+         } for x, y, z, distraction_greedy, redefination_greedy, shortcut_greedy,
+        commonsense_greedy, cornercase_greedy, complex_greedy, codesense_greedy in zip(
+            df.iloc[:, 1].tolist(), df.iloc[:, 10].tolist(), df.iloc[:,11].tolist(),
+            df.iloc[:, 3].tolist(), df.iloc[:, 4].tolist(), df.iloc[:, 5].tolist(),
+            df.iloc[:, 6].tolist(), df.iloc[:, 7].tolist(), df.iloc[:, 8].tolist(),
+            df.iloc[:, 9].tolist(),
+        )
     ]
     new_data = []
     for line in data[:29]:
@@ -30,28 +43,29 @@ def read_excel():
 
 
 def manual_data():
+    # total, distraction, redefination, shortcut, commonsense, cornercase, complex, codesense
     greedy_data = {
-        "Llama2 Chat 7b": "2.9%",
-        "Llama2 Chat 13b": "2.1%",
-        "Mistral 7b": "7.9%",
-        "Phi 1": "12.9%",
-        "Phi 1.5": "8.6%",
-        "Phi 2": "13.6%",
-        "CodeLlama 7B": "3.6%",
-        "CodeLlama 13B": "5.0%",
-        "CodeLlama 7B Instruct": "8.6%",
-        "CodeLlama 13B Instruct": "15.0%",
-        "CodeLlama 34B Instruct": "16.4%",
-        "CodeLlama 7B Py": "3.6%",
-        "CodeLlama 13B Py": "5.0%",
-        "CodeLlama 34B Py": "9.3%",
-        "DeepSeek Instruct 1.3B": "11.4%",
-        "DeepSeek Instruct 6.7B": "22.9%",
-        "DeepSeek Instruct 33B": "38.6%",
-        "WizardCoder-33B-V1.1": "31.4%",
-        "WizardCoder-Python-34B-V1.0": "22.9%",
-        "GPT-3.5 (gpt-3.5-turbo)": "27.9%",
-        "GPT-4 (gpt-4-1106-preview)": "53.6%",
+        "Llama2 Chat 7b": ["2.9%", "0.0", "0.0", "0.0", "5.0", "10.0", "0.0", "10.0"],
+        "Llama2 Chat 13b": ["2.1%", "0.0", "0.0", "0.0", "0.0", "10.0", "0.0", "5.0"],
+        "Mistral 7b": ["7.9%", "15.0", "0.0", "0.0", "25.0", "0.0", "15.0", "0.0"],
+        "Phi 1": ["12.9%", "10.0", "15.0", "10.0", "10.0", "10.0", "5.0", "30.0"],
+        "Phi 1.5": ["8.6%", "0.0", "10.0", "5.0", "15.0", "10.0", "0.0", "20.0"],
+        "Phi 2": ["13.6%", "10.0", "15.0", "15.0", "25.0", "10.0", "0.0", "20.0"],
+        "CodeLlama 7B": ["3.6%", "0.0", "0.0", "0.0", "10.0", "10.0", "0.0", "5.0"],
+        "CodeLlama 13B": ["5.0%", "0.0", "5.0", "0.0", "10.0", "10.0", "0.0", "10.0"],
+        "CodeLlama 7B Instruct": ["8.6%", "5.0", "5.0", "5.0", "15.0", "15.0", "0.0", "15.0"],
+        "CodeLlama 13B Instruct": ["15.0%", "20.0", "15.0", "10.0", "15.0", "15.0", "10.0", "20.0"],
+        "CodeLlama 34B Instruct": ["16.4%", "20.0", "25.0", "10.0", "25.0", "5.0", "5.0", "25.0"],
+        "CodeLlama 7B Py": ["3.6%", "0.0", "5.0", "0.0", "10.0", "5.0", "0.0", "5.0"],
+        "CodeLlama 13B Py": ["5.0%", "0.0", "5.0", "0.0", "10.0", "10.0", "0.0", "10.0"],
+        "CodeLlama 34B Py": ["9.3%", "10.0", "10.0", "0.0", "25.0", "10.0", "5.0", "5.0"],
+        "DeepSeek Instruct 1.3B": ["11.4%", "5.0", "10.0", "5.0", "30.0", "20.0", "0.0", "10.0"],
+        "DeepSeek Instruct 6.7B": ["22.9%", "15.0", "35.0", "10.0", "30.0", "20.0", "10.0", "40.0"],
+        "DeepSeek Instruct 33B": ["38.6%", "30.0", "40.0", "20.0", "60.0", "45.0", "30.0", "45.0"],
+        "WizardCoder-33B-V1.1": ["31.4%", "20.0", "30.0", "15.0", "65.0", "35.0", "15.0", "40.0"],
+        "WizardCoder-Python-34B-V1.0": ["22.9%", "15.0", "35.0", "10.0", "40.0", "15.0", "10.0", "35.0"],
+        "GPT-3.5 (gpt-3.5-turbo)": ["27.9%", "25.0", "40.0", "25.0", "30.0", "15.0", "15.0", "45.0"],
+        "GPT-4 (gpt-4-1106-preview)": ["53.6%", "35.0", "65.0", "40.0", "70.0", "55.0", "55.0", "55.0"]
     }
     return greedy_data
 
@@ -69,13 +83,19 @@ def main():
     csv_data = read_csv()
     for idx, line in enumerate(csv_data):
         if idx == 0:
-            line.append("Greedy")
+            line += ["Greedy", "Greedy distraction", "Greedy redefination", "Greedy shortcut", "Greedy commonsense", "Greedy cornercase", "Greedy complex", "Greedy codesense"]
+            # line.append("Greedy")
         else:
-            line.append(greedy_data[line[0]])
+            line += greedy_data[line[0]]
+            # line.append(greedy_data[line[0]])
 
     excel_data = read_excel()
     for line in excel_data:
-        new_line = [line["model"]] + ["-"] * 17 + [line["link"], line["total_greedy"]]
+        new_line = ([line["model"]] + ["-"] * 17 +
+                    [line["link"], line["total_greedy"], line["distraction_greedy"],
+                     line["redefination_greedy"], line["shortcut_greedy"], line["commonsense_greedy"],
+                     line["cornercase_greedy"], line["complex_greedy"], line["codesense_greedy"],
+                     ])
         csv_data.append(new_line)
     output_csv = "new_mhpp.csv"
     save_csv(output_csv, csv_data)
