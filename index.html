@@ -78,11 +78,46 @@
       table {
         font-size: small;
       }
-
-
     }
 
+    .hover-container {
+      position: relative;
+      display: inline-block;
+    }
 
+    .hover-button {
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .popup-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-10%);
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        z-index: 1;
+        width: 800px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .popup-content table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .popup-content th, .popup-content td {
+        padding: 8px;
+        border: 1px solid #ccc;
+    }
+
+    .hover-container:hover .popup-content {
+        display: block;
+    }
   </style>
 </head>
 
@@ -421,6 +456,48 @@
           promptedSymbol.textContent = '🗒️';
           modelCell.appendChild(promptedSymbol);
         }
+
+        var detailSymbol = document.createElement('div');
+        detailSymbol.className = 'hover-container';
+        detailSymbol.innerHTML = `
+        <span class="hover-button">🔻</span>
+        <div class="popup-content">
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <td>Codesense</td>
+                    <td>Commonsense</td>
+                    <td>Complex</td>
+                    <td>Cornercase</td>
+                    <td>Distraction</td>
+                    <td>Redefinition</td>
+                    <td>Shortcut</td>
+                </tr>
+                <tr>
+                    <th>pass@1</th>
+                    <td style="text-align: right;">${row['Codesense pass@1']}</td>
+                    <td style="text-align: right;">${row['Commonsense pass@1']}</td>
+                    <td style="text-align: right;">${row['Complex pass@1']}</td>
+                    <td style="text-align: right;">${row['Cornercase pass@1']}</td>
+                    <td style="text-align: right;">${row['Distraction pass@1']}</td>
+                    <td style="text-align: right;">${row['Redefinition pass@1']}</td>
+                    <td style="text-align: right;">${row['Shortcut pass@1']}</td>
+                </tr>
+                <tr>
+                    <th>pass@5</th>
+                    <td style="text-align: right;">${row['Codesense pass@5']}</td>
+                    <td style="text-align: right;">${row['Commonsense pass@5']}</td>
+                    <td style="text-align: right;">${row['Complex pass@5']}</td>
+                    <td style="text-align: right;">${row['Cornercase pass@5']}</td>
+                    <td style="text-align: right;">${row['Distraction pass@5']}</td>
+                    <td style="text-align: right;">${row['Redefinition pass@5']}</td>
+                    <td style="text-align: right;">${row['Shortcut pass@5']}</td>
+                </tr>
+            </table>
+        </div>
+    `;
+        modelCell.appendChild(detailSymbol);
+
         dataRow.appendChild(modelCell);
         var passCell = document.createElement('td');
         if (table == plusedTable) {
