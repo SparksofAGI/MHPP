@@ -255,12 +255,15 @@
     function toggleDetails(event, model) {
         const currentRow = event.target.closest('tr');
         let detailRow = document.getElementById(`detail-row-${model}`);
+        const icon = event.target;
 
         if (detailRow) {
             // If details row already exists, remove it
             detailRow.remove();
+            icon.textContent = '🔻';
         } else {
             // Otherwise, add the details row
+            icon.textContent = '❌';
             detailRow = document.createElement('tr');
             detailRow.id = `detail-row-${model}`;
             const detailCell = document.createElement('td');
