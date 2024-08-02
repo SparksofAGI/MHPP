@@ -271,35 +271,45 @@
         <thead>
           <tr>
             <th style="padding: 8px; border: 1px solid green;">Category</th>
-            <th style="padding: 8px; border: 1px solid green;">Codesense</th>
-            <th style="padding: 8px; border: 1px solid green;">Commonsense</th>
-            <th style="padding: 8px; border: 1px solid green;">Complex</th>
-            <th style="padding: 8px; border: 1px solid green;">Cornercase</th>
             <th style="padding: 8px; border: 1px solid green;">Distraction</th>
             <th style="padding: 8px; border: 1px solid green;">Redefinition</th>
             <th style="padding: 8px; border: 1px solid green;">Shortcut</th>
+            <th style="padding: 8px; border: 1px solid green;">Commonsense</th>
+            <th style="padding: 8px; border: 1px solid green;">Cornercase</th>
+            <th style="padding: 8px; border: 1px solid green;">Complex</th>
+            <th style="padding: 8px; border: 1px solid green;">Codesense</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th style="padding: 8px; border: 1px solid green;">pass@1</th>
-            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Codesense pass@1']}</td>
-            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Commonsense pass@1']}</td>
-            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Complex pass@1']}</td>
-            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Cornercase pass@1']}</td>
+            <th style="padding: 8px; border: 1px solid green;">Pass@1 Greedy</th>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Greedy distraction']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Greedy redefination']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Greedy shortcut']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Greedy commonsense']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Greedy cornercase']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Greedy complex']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Greedy codesense']}</td>
+          </tr>
+          <tr>
+            <th style="padding: 8px; border: 1px solid green;">Pass@1 Sampling</th>
             <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Distraction pass@1']}</td>
             <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Redefinition pass@1']}</td>
             <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Shortcut pass@1']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Commonsense pass@1']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Cornercase pass@1']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Complex pass@1']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Codesense pass@1']}</td>
           </tr>
           <tr>
             <th style="padding: 8px; border: 1px solid green;">pass@5</th>
-            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Codesense pass@5']}</td>
-            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Commonsense pass@5']}</td>
-            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Complex pass@5']}</td>
-            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Cornercase pass@5']}</td>
             <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Distraction pass@5']}</td>
             <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Redefinition pass@5']}</td>
             <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Shortcut pass@5']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Commonsense pass@5']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Cornercase pass@5']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Complex pass@5']}</td>
+            <td style="text-align: right; padding: 8px; border: 1px solid green;">${data[data.findIndex(row => row.Model === model)]['Codesense pass@5']}</td>
           </tr>
         </tbody>
       </table>
