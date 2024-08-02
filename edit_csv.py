@@ -22,7 +22,7 @@ def read_excel():
             df.iloc[:, 1].tolist(), df.iloc[:, 10].tolist(), df.iloc[:,11].tolist())
     ]
     new_data = []
-    for line in data[:27]:
+    for line in data[:28]:
         if not line["total_greedy"] or line["total_greedy"] == "nan%":
             continue
         new_data.append(line)
