@@ -37,13 +37,13 @@ Llama 3 70B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/me
 Llama 3 8B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct,23.6%,20.0%,45.0%,15.0%,30.0%,15.0%,10.0%,30.0%
 Phi-3-small,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/microsoft/Phi-3-small-128k-instruct,21.4%,30.0%,25.0%,5.0%,25.0%,20.0%,20.0%,25.0%
 Phi-3-medium,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/microsoft/Phi-3-medium-128k-instruct,27.1%,25.0%,35.0%,25.0%,30.0%,25.0%,25.0%,25.0%
-GPT-4o mini,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/,51.4%,50.0%,65.0%,35.0%,70.0%,50.0%,35.0%,55.0%
+GPT-4o mini,47.6%,57.0%,59.7%,74.9%,41.2%,60.1%,58.3%,70.9%,46.5%,59.3%,35.5%,48.4%,54.5%,67.0%,49.0%,62.5%,TRUE,https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/,51.4%,50.0%,65.0%,35.0%,70.0%,50.0%,35.0%,55.0%
 Gemini 1.5 Flash,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://deepmind.google/technologies/gemini/pro/,31.4%,30.0%,45.0%,30.0%,40.0%,20.0%,15.0%,40.0%
 Gemini 1.5 Pro,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://deepmind.google/technologies/gemini/pro/,42.9%,25.0%,45.0%,40.0%,60.0%,45.0%,25.0%,60.0%
 DeepSeek-V2-0628,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat,48.6%,50.0%,55.0%,35.0%,55.0%,50.0%,35.0%,60.0%
 Mistral NeMo 12B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/mistral-nemo/,21.4%,15.0%,30.0%,5.0%,35.0%,25.0%,5.0%,35.0%
 Mistral Large 2 123B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/mistral-large-2407/,50.7%,55.0%,60.0%,35.0%,60.0%,45.0%,45.0%,55.0%
-DeepSeek-Coder-V2-0724,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct,52.9%,50.0%,55.0%,40.0%,75.0%,50.0%,35.0%,65.0%
+DeepSeek-Coder-V2-0724,35.2%,44.9%,53.3%,65.1%,37.3%,45.6%,72.2%,75.7%,50.8%,53.9%,40.1%,56.2%,55.6%,62.8%,49.2%,57.7%,TRUE,https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct,52.9%,50.0%,55.0%,40.0%,75.0%,50.0%,35.0%,65.0%
 Codestral Mamba (7B),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/codestral-mamba/,25.0%,30.0%,35.0%,15.0%,30.0%,15.0%,15.0%,35.0%
 Llama 3.1 8B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://ai.meta.com/blog/meta-llama-3-1/,25.0%,25.0%,30.0%,20.0%,30.0%,30.0%,10.0%,30.0%
 Llama 3.1 70B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://ai.meta.com/blog/meta-llama-3-1/,38.6%,30.0%,50.0%,30.0%,50.0%,35.0%,30.0%,45.0%

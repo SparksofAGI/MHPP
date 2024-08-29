@@ -42,7 +42,7 @@ def read_excel():
     return new_data
 
 
-def manual_data():
+def manual_data_greedy():
     # total, distraction, redefination, shortcut, commonsense, cornercase, complex, codesense
     greedy_data = {
         "Llama2 Chat 7b": ["2.9%", "0.0%", "0.0%", "0.0%", "5.0%", "10.0%", "0.0%", "10.0%"],
@@ -69,6 +69,16 @@ def manual_data():
     }
     return greedy_data
 
+def manual_data_sampling():
+    # c1 p1, c1 p5, c2 p1, c2 p5, c3 p1, c3 p5, c4 p1, c4 p5, c5 p1, c5 p5, c6 p1, c6 p5, c7 p1, c7 p5, tot p1, tot p5, prompted
+    sampling_data = {
+        "DeepSeek-Coder-V2-0724": ["35.2%", "44.9%", "53.3%", "65.1%", "37.3%", "45.6%", "72.2%", "75.7%",
+                                   "50.8%", "53.9%", "40.1%", "56.2%", "55.6%", "62.8%", "49.2%", "57.7%", "TRUE"],
+        "GPT-4o mini": ["47.6%", "57.0%", "59.7%", "74.9%", "41.2%", "60.1%", "58.3%", "70.9%", "46.5%", "59.3%",
+                        "35.5%", "48.4%", "54.5%", "67.0%", "49.0%", "62.5%", "TRUE"],
+    }
+
+    return sampling_data
 
 def save_csv(path, data):
     with open(path, mode='w', newline='', encoding='utf-8') as file:
@@ -79,7 +89,8 @@ def save_csv(path, data):
 
 
 def main():
-    greedy_data = manual_data()
+    greedy_data = manual_data_greedy()
+    sampling_data = manual_data_sampling()
     csv_data = read_csv()
     for idx, line in enumerate(csv_data):
         if idx == 0:
@@ -91,7 +102,11 @@ def main():
 
     excel_data = read_excel()
     for line in excel_data:
-        new_line = ([line["model"]] + ["-"] * 17 +
+        if line["model"] in sampling_data.keys():
+            sampling_part = sampling_data[line["model"]]
+        else:
+            sampling_part = ["-"] * 17
+        new_line = ([line["model"]] + sampling_part +
                     [line["link"], line["total_greedy"], line["distraction_greedy"],
                      line["redefination_greedy"], line["shortcut_greedy"], line["commonsense_greedy"],
                      line["cornercase_greedy"], line["complex_greedy"], line["codesense_greedy"],
