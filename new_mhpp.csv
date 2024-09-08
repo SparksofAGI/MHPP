@@ -50,3 +50,6 @@ Llama 3.1 70B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://ai.meta.com/blog/meta-ll
 Nemotron-4-340B Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://arxiv.org/abs/2406.11704,30.0%,35.0%,45.0%,20.0%,25.0%,25.0%,10.0%,50.0%
 Llama 3.1 405B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://ai.meta.com/blog/meta-llama-3-1/,46.4%,40.0%,50.0%,40.0%,60.0%,50.0%,40.0%,45.0%
 Gemma 2 2B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf,12.9%,10.0%,15.0%,5.0%,20.0%,15.0%,0.0%,25.0%
+Gemma 2 9B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf,22.1%,25.0%,25.0%,20.0%,25.0%,20.0%,10.0%,30.0%
+Gemma 2 27B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf,35.7%,30.0%,50.0%,20.0%,40.0%,20.0%,35.0%,55.0%
+DeepSeek-V2.5,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.deepseek.com,45.7%,25.0%,55.0%,50.0%,70.0%,45.0%,20.0%,55.0%

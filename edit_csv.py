@@ -35,7 +35,7 @@ def read_excel():
         )
     ]
     new_data = []
-    for line in data[:30]:
+    for line in data[:33]:
         if not line["total_greedy"] or line["total_greedy"] == "nan%":
             continue
         new_data.append(line)
