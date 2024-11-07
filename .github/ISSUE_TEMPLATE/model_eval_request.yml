@@ -22,11 +22,11 @@ body:
   - type: textarea
     id: other
     attributes:
-      label: "Model Response"
-      description: Update you result in jsonl format.
-      placeholder: Please ensure uploaded file includes the question ID, function name and model response in each line.
+      label: "Additional information (Optional)"
+      description: Add more information about preferably settings.
+      placeholder: Which specfic instruction should we use? What data type precision should be used? What is the minimal hardware requirement?
     validations:
-      required: true 
+      required: false 
   - type: textarea
     id: decomtamination
     attributes:
