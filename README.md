@@ -4,7 +4,7 @@
 
 MHPP is a code genration benchmark that:
 * ✨ Assesses LLMs' comprehension of specifications and restrictions, multi-step reasoning, and effective application of coding knowledge.
-* ✨ Contains 140 manually curated hard Python problems across 7 different challenge types.
+* ✨ Contains 210 manually curated hard Python problems across 7 different challenge types.
 ![statistics](./fig/statistics.png)
 
 Why MHPP?
