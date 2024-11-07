@@ -2,9 +2,9 @@ import csv
 import pandas as pd
 
 
-def read_csv():
+def read_csv(filename):
     csv_data = []
-    csv_path = "mhpp.csv"
+    csv_path = filename
     with open(csv_path, mode='r', encoding='utf-8') as file:
         reader = csv.reader(file)
         for row in reader:
@@ -91,7 +91,7 @@ def save_csv(path, data):
 def main():
     greedy_data = manual_data_greedy()
     sampling_data = manual_data_sampling()
-    csv_data = read_csv()
+    csv_data = read_csv("mhpp.csv")
     for idx, line in enumerate(csv_data):
         if idx == 0:
             line += ["Greedy", "Greedy distraction", "Greedy redefination", "Greedy shortcut", "Greedy commonsense", "Greedy cornercase", "Greedy complex", "Greedy codesense"]
@@ -112,9 +112,18 @@ def main():
                      line["cornercase_greedy"], line["complex_greedy"], line["codesense_greedy"],
                      ])
         csv_data.append(new_line)
+    output_csv = "140_mhpp.csv"
+    save_csv(output_csv, csv_data)
+
+
+def new_main():
+    excel_path = "excels/MHPP_ICLR.xlsx"
+    df = pd.read_excel(excel_path, sheet_name="MHPP_leaderboard")
+    csv_data = [df.columns.tolist()] + df.values.tolist()
     output_csv = "new_mhpp.csv"
     save_csv(output_csv, csv_data)
 
 
 if __name__ == '__main__':
     main()
+    new_main()

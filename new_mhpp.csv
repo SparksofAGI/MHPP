@@ -1,55 +1,29 @@
-Model,Distraction pass@1,Distraction pass@5,Redefinition pass@1,Redefinition pass@5,Shortcut pass@1,Shortcut pass@5,Commonsense pass@1,Commonsense pass@5,Cornercase pass@1,Cornercase pass@5,Complex pass@1,Complex pass@5,Codesense pass@1,Codesense pass@5,pass@1,pass@5,prompted,link,Greedy,Greedy distraction,Greedy redefination,Greedy shortcut,Greedy commonsense,Greedy cornercase,Greedy complex,Greedy codesense
-Llama2 Chat 7b,0.0%,0.0%,2.8%,7.9%,0.6%,2.5%,1.8%,5.5%,6.8%,9.5%,0.3%,1.5%,5.5%,9.7%,2.6%,5.2%,TRUE,https://huggingface.co/meta-llama/Llama-2-7b-chat-hf,2.9%,0.0%,0.0%,0.0%,5.0%,10.0%,0.0%,10.0%
-Llama2 Chat 13b,0.0%,0.0%,1.0%,3.9%,0.7%,2.7%,5.0%,10.2%,9.5%,10.5%,0.3%,1.4%,8.3%,11.6%,3.5%,5.8%,TRUE,https://huggingface.co/meta-llama/Llama-2-13b-chat-hf,2.1%,0.0%,0.0%,0.0%,0.0%,10.0%,0.0%,5.0%
-Mistral 7b,3.0%,11.1%,7.5%,16.8%,2.8%,9.5%,7.1%,14.4%,9.0%,14.7%,0.8%,3.4%,13.0%,26.3%,6.2%,13.7%,TRUE,https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1,7.9%,15.0%,0.0%,0.0%,25.0%,0.0%,15.0%,0.0%
-Phi 1,3.0%,9.5%,15.7%,25.7%,8.8%,15.5%,11.2%,18.2%,8.3%,18.1%,6.9%,11.3%,25.7%,34.8%,11.4%,19.0%,FALSE,https://huggingface.co/microsoft/phi-1,12.9%,10.0%,15.0%,10.0%,10.0%,10.0%,5.0%,30.0%
-Phi 1.5,0.9%,3.7%,5.5%,12.5%,2.9%,8.9%,9.0%,17.8%,5.4%,11.2%,0.6%,2.8%,13.9%,24.5%,5.5%,11.6%,FALSE,https://huggingface.co/microsoft/phi-1_5,8.6%,0.0%,10.0%,5.0%,15.0%,10.0%,0.0%,20.0%
-Phi 2,7.1%,16.3%,9.7%,22.3%,4.6%,14.5%,13.9%,27.0%,8.2%,15.5%,1.3%,5.5%,16.2%,33.2%,8.7%,19.2%,FALSE,https://huggingface.co/microsoft/phi-2,13.6%,10.0%,15.0%,15.0%,25.0%,10.0%,0.0%,20.0%
-CodeLlama 7B,1.4%,6.0%,2.6%,10.4%,0.7%,3.3%,7.0%,18.3%,5.7%,11.9%,0.3%,1.3%,6.5%,15.8%,3.4%,9.6%,FALSE,https://huggingface.co/meta-llama/CodeLlama-7b-hf,3.6%,0.0%,0.0%,0.0%,10.0%,10.0%,0.0%,5.0%
-CodeLlama 13B,2.2%,9.2%,3.1%,12.3%,1.6%,7.0%,6.0%,17.7%,5.6%,14.8%,0.8%,3.7%,7.7%,19.4%,3.9%,12.0%,FALSE,https://huggingface.co/meta-llama/CodeLlama-13b-hf CodeLlama 34B,7.1%,20.7%,15.4%,34.2%,3.8%,13.8%,21.2%,43.4%,10.5%,23.7%,1.5%,6.6%,15.0%,33.7%,10.6%,25.1%,FALSE,https://huggingface.co/meta-llama/CodeLlama-34b-hf,5.0%,0.0%,5.0%,0.0%,10.0%,10.0%,0.0%,10.0%
-CodeLlama 7B Instruct,8.2%,20.1%,9.7%,17.8%,8.5%,15.0%,13.2%,23.5%,14.7%,19.1%,2.2%,7.2%,14.2%,25.7%,10.1%,18.4%,TRUE,https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf,8.6%,5.0%,5.0%,5.0%,15.0%,15.0%,0.0%,15.0%
-CodeLlama 13B Instruct,11.0%,22.2%,11.9%,17.2%,3.8%,9.9%,15.3%,26.1%,13.1%,18.9%,1.1%,4.7%,19.4%,26.4%,10.8%,17.9%,TRUE,https://huggingface.co/meta-llama/CodeLlama-13b-Instruct-hf,15.0%,20.0%,15.0%,10.0%,15.0%,15.0%,10.0%,20.0%
-CodeLlama 34B Instruct,6.0%,15.5%,11.7%,17.3%,7.2%,11.3%,23.0%,35.8%,9.3%,14.4%,0.8%,3.5%,17.0%,23.7%,10.7%,17.4%,TRUE,https://huggingface.co/meta-llama/CodeLlama-34b-Instruct-hf,16.4%,20.0%,25.0%,10.0%,25.0%,5.0%,5.0%,25.0%
-CodeLlama 7B Py,1.2%,5.5%,3.0%,11.8%,0.6%,2.6%,6.9%,18.6%,5.4%,11.8%,0.4%,2.0%,4.9%,12.0%,3.2%,9.2%,FALSE,https://huggingface.co/meta-llama/CodeLlama-7b-Python-hf,3.6%,0.0%,5.0%,0.0%,10.0%,5.0%,0.0%,5.0%
-CodeLlama 13B Py,1.9%,7.4%,6.4%,18.5%,1.2%,5.2%,9.9%,23.5%,6.3%,12.9%,0.6%,2.9%,9.8%,22.1%,5.2%,13.2%,FALSE,https://huggingface.co/meta-llama/CodeLlama-13b-Python-hf,5.0%,0.0%,5.0%,0.0%,10.0%,10.0%,0.0%,10.0%
-CodeLlama 34B Py,8.0%,24.2%,13.6%,32.4%,2.5%,10.5%,19.6%,43.4%,9.9%,20.6%,2.0%,9.0%,14.2%,32.6%,10.0%,24.7%,FALSE,https://huggingface.co/meta-llama/CodeLlama-34b-Python-hf,9.3%,10.0%,10.0%,0.0%,25.0%,10.0%,5.0%,5.0%
-DeepSeek Instruct 1.3B,11.2%,22.9%,12.5%,24.9%,7.3%,18.2%,21.8%,36.7%,11.7%,19.3%,0.7%,3.3%,15.2%,33.2%,11.5%,22.7%,TRUE,https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct,11.4%,5.0%,10.0%,5.0%,30.0%,20.0%,0.0%,10.0%
-DeepSeek Instruct 6.7B,17.9%,33.6%,29.6%,43.2%,15.5%,30.8%,36.5%,60.8%,22.7%,37.1%,8.3%,25.0%,36.8%,60.1%,23.9%,41.5%,TRUE,https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct,22.9%,15.0%,35.0%,10.0%,30.0%,20.0%,10.0%,40.0%
-DeepSeek Instruct 33B,26.8%,39.2%,35.4%,52.9%,20.6%,38.6%,51.8%,69.3%,31.3%,45.9%,14.6%,34.7%,39.2%,64.3%,31.4%,49.3%,TRUE,https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct,38.6%,30.0%,40.0%,20.0%,60.0%,45.0%,30.0%,45.0%
-WizardCoder-33B-V1.1,25.6%,39.9%,34.5%,53.7%,19.8%,36.3%,48.5%,67.5%,30.6%,44.0%,14.5%,37.7%,39.8%,62.0%,30.5%,48.7%,TRUE,https://huggingface.co/WizardLM/WizardCoder-33B-V1.1,31.4%,20.0%,30.0%,15.0%,65.0%,35.0%,15.0%,40.0%
-WizardCoder-Python-34B-V1.0,12.6%,28.3%,21.4%,38.2%,7.1%,16.9%,20.2%,41.1%,11.9%,25.6%,3.3%,14.0%,23.8%,45.1%,14.4%,29.9%,TRUE,https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0,22.9%,15.0%,35.0%,10.0%,40.0%,15.0%,10.0%,35.0%
-GPT-3.5 (gpt-3.5-turbo),28.2%,38.8%,33.7%,45.8%,28.6%,47.2%,37.6%,57.9%,25.3%,39.2%,15.9%,29.1%,44.5%,63.5%,30.6%,45.9%,TRUE,https://openai.com/blog/new-models-and-developer-products-announced-at-devday,27.9%,25.0%,40.0%,25.0%,30.0%,15.0%,15.0%,45.0%
-GPT-4 (gpt-4-1106-preview),45.0%,58.3%,61.6%,73.4%,32.4%,49.3%,55.4%,78.2%,44.3%,61.9%,37.5%,64.2%,58.2%,74.6%,47.8%,65.7%,TRUE,https://openai.com/blog/new-models-and-developer-products-announced-at-devday,53.6%,35.0%,65.0%,40.0%,70.0%,55.0%,55.0%,55.0%
-Qwen2-1.5B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/Qwen/Qwen2-1.5B-Instruct,6.4%,0.0%,5.0%,5.0%,15.0%,10.0%,0.0%,10.0%
-Qwen2-7B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/Qwen/Qwen2-7B-Instruct,27.1%,30.0%,25.0%,20.0%,35.0%,35.0%,15.0%,30.0%
-Qwen2-57B-A14B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct,18.6%,15.0%,30.0%,10.0%,25.0%,25.0%,0.0%,25.0%
-Qwen2-72B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/Qwen/Qwen2-72B-Instruct,41.4%,40.0%,50.0%,45.0%,60.0%,30.0%,20.0%,45.0%
-GPT-4o (gpt-4o-2024-05-13),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://openai.com/index/hello-gpt-4o/,55.0%,50.0%,70.0%,40.0%,65.0%,45.0%,55.0%,60.0%
-Mistral Large,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/mistral-large/,26.4%,20.0%,50.0%,10.0%,30.0%,20.0%,20.0%,35.0%
-Mistral Medium,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://docs.mistral.ai/getting-started/models/,17.1%,10.0%,40.0%,5.0%,15.0%,10.0%,5.0%,35.0%
-CodeStral (22B),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/codestral/,33.6%,25.0%,55.0%,15.0%,45.0%,30.0%,15.0%,50.0%
-DeepSeek-V2-Chat,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat,38.6%,40.0%,35.0%,40.0%,55.0%,30.0%,40.0%,30.0%
-DeepSeek-Coder-V2-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct,48.6%,45.0%,55.0%,40.0%,60.0%,55.0%,30.0%,55.0%
-Claude 3.5 Sonnet,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.anthropic.com/news/claude-3-5-sonnet,57.9%,40.0%,80.0%,35.0%,60.0%,60.0%,55.0%,75.0%
-Claude 3 Sonnet,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.anthropic.com/news/claude-3-family,31.4%,25.0%,45.0%,20.0%,50.0%,30.0%,20.0%,30.0%
-Claude 3 Haiku,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.anthropic.com/news/claude-3-family,27.1%,25.0%,30.0%,10.0%,50.0%,25.0%,10.0%,40.0%
-Llama 3 70B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct,42.1%,35.0%,50.0%,25.0%,55.0%,40.0%,35.0%,55.0%
-Llama 3 8B-Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct,23.6%,20.0%,45.0%,15.0%,30.0%,15.0%,10.0%,30.0%
-Phi-3-small,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/microsoft/Phi-3-small-128k-instruct,21.4%,30.0%,25.0%,5.0%,25.0%,20.0%,20.0%,25.0%
-Phi-3-medium,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/microsoft/Phi-3-medium-128k-instruct,27.1%,25.0%,35.0%,25.0%,30.0%,25.0%,25.0%,25.0%
-GPT-4o mini,47.6%,57.0%,59.7%,74.9%,41.2%,60.1%,58.3%,70.9%,46.5%,59.3%,35.5%,48.4%,54.5%,67.0%,49.0%,62.5%,TRUE,https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/,51.4%,50.0%,65.0%,35.0%,70.0%,50.0%,35.0%,55.0%
-Gemini 1.5 Flash,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://deepmind.google/technologies/gemini/pro/,31.4%,30.0%,45.0%,30.0%,40.0%,20.0%,15.0%,40.0%
-Gemini 1.5 Pro,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://deepmind.google/technologies/gemini/pro/,42.9%,25.0%,45.0%,40.0%,60.0%,45.0%,25.0%,60.0%
-DeepSeek-V2-0628,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat,48.6%,50.0%,55.0%,35.0%,55.0%,50.0%,35.0%,60.0%
-Mistral NeMo 12B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/mistral-nemo/,21.4%,15.0%,30.0%,5.0%,35.0%,25.0%,5.0%,35.0%
-Mistral Large 2 123B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/mistral-large-2407/,50.7%,55.0%,60.0%,35.0%,60.0%,45.0%,45.0%,55.0%
-DeepSeek-Coder-V2-0724,35.2%,44.9%,53.3%,65.1%,37.3%,45.6%,72.2%,75.7%,50.8%,53.9%,40.1%,56.2%,55.6%,62.8%,49.2%,57.7%,TRUE,https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct,52.9%,50.0%,55.0%,40.0%,75.0%,50.0%,35.0%,65.0%
-Codestral Mamba (7B),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://mistral.ai/news/codestral-mamba/,25.0%,30.0%,35.0%,15.0%,30.0%,15.0%,15.0%,35.0%
-Llama 3.1 8B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://ai.meta.com/blog/meta-llama-3-1/,25.0%,25.0%,30.0%,20.0%,30.0%,30.0%,10.0%,30.0%
-Llama 3.1 70B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://ai.meta.com/blog/meta-llama-3-1/,38.6%,30.0%,50.0%,30.0%,50.0%,35.0%,30.0%,45.0%
-Nemotron-4-340B Instruct,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://arxiv.org/abs/2406.11704,30.0%,35.0%,45.0%,20.0%,25.0%,25.0%,10.0%,50.0%
-Llama 3.1 405B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://ai.meta.com/blog/meta-llama-3-1/,46.4%,40.0%,50.0%,40.0%,60.0%,50.0%,40.0%,45.0%
-Gemma 2 2B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf,12.9%,10.0%,15.0%,5.0%,20.0%,15.0%,0.0%,25.0%
-Gemma 2 9B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf,22.1%,25.0%,25.0%,20.0%,25.0%,20.0%,10.0%,30.0%
-Gemma 2 27B,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf,35.7%,30.0%,50.0%,20.0%,40.0%,20.0%,35.0%,55.0%
-DeepSeek-V2.5,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,https://www.deepseek.com,45.7%,25.0%,55.0%,50.0%,70.0%,45.0%,20.0%,55.0%
+Model,link,prompted,Greedy distraction,Greedy redefinition,Greedy shortcut,Greedy commonsense,Greedy cornercase,Greedy complex,Greedy codesense,Greedy,Distraction pass@1,Distraction  pass@5,Redefinition  pass@1,Redefinition  pass@5,Shortcut  pass@1,Shortcut  pass@5,Commonsense  pass@1,Commonsense  pass@5,Cornercase  pass@1,Cornercase  pass@1.1,Complex  pass@1,Complex  pass@5,Codesense  pass@1,Codesense  pass@5,pass@1, pass@5
+GPT-4o-2024-05-13,https://openai.com/index/hello-gpt-4o/,True,50.0,66.7,40.0,60.0,43.3,46.7,53.3,51.4,52.9,62.8,60.1,71.8,36.3,54.6,58.8,75.7,45.4,55.4,46.1,63,58.2,67.5,51.1,64.4
+GPT-4o-Mini-2024-07-18,https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/,True,46.7,53.3,40.0,40.0,40.0,26.7,50.0,42.4,44.4,55.4,53.7,67,37.6,50.8,44.9,57.7,40.1,52.9,34.7,48.5,54.2,65.3,44.2,56.8
+GPT-4-Turbo-2024-04-09,https://openai.com/index/new-models-and-developer-products-announced-at-devday/,True,43.3,56.7,33.3,46.7,40.0,36.7,50.0,43.8,42.5,57.1,58.6,66.7,33.6,44.7,48.9,62.4,42.2,59.2,37.8,57.6,52.3,62.8,45.1,58.7
+GPT-3.5-Turbo-0125,https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates/,True,30.0,30.0,30.0,23.3,23.3,16.7,43.3,28.1,29.6,47.8,39.6,58.1,27.9,43.6,35.9,53.1,23.8,35.6,13,30.1,37.1,54,29.6,46
+Phi-3-medium 14B,https://huggingface.co/microsoft/Phi-3-medium-128k-instruct,True,13.3,23.3,16.7,20.0,20.0,23.3,30.0,21.0,16.8,33.1,22.5,41.2,16.7,28.4,21.8,42.8,19.3,33.8,8.9,23.4,23.1,45.9,18.4,35.5
+Phi-3-small 7B,https://huggingface.co/microsoft/Phi-3-small-128k-instruct,True,16.7,23.3,16.7,13.3,16.7,13.3,36.7,19.5,15.4,28.6,19,37.5,10.9,25,16.6,34.2,15.1,29.6,6.3,16.5,21,46.4,14.9,31.1
+Phi-3-mini 3.8B,https://huggingface.co/microsoft/Phi-3-mini-128k-instruct,True,20.0,26.7,13.3,26.7,20.0,3.3,26.7,19.5,12.5,26.3,22.7,35.3,13.3,28.4,16.3,31,16.3,31.5,6.3,13.8,20.7,38,15.4,29.2
+Llama 3.1 8B,https://ai.meta.com/blog/meta-llama-3-1/,True,20.0,23.3,16.7,26.7,10.0,3.3,20.0,17.1,6.8,17,10.4,23.8,3.9,13.2,11.7,28.4,5.4,15.3,1.8,7.5,9.5,23.4,7.1,18.4
+Gemma2 IT 9B,https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf,True,20.0,20.0,23.3,20.0,16.7,3.3,23.3,18.1,15.7,23.9,20,30.3,20.7,24.2,17.3,24.6,14.6,22.7,5.9,15.4,18.3,31.3,16.1,24.6
+Gemma2 IT 2B,https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf,True,10.0,10.0,3.3,10.0,10.0,0.0,23.3,9.5,8.6,15.9,7.9,18.1,2.9,7.5,5.9,13.4,7,14.3,0.1,0.6,8.5,20.4,5.8,12.9
+CodeGemma 7B 1.1,https://huggingface.co/google/codegemma-1.1-7b-it,True,16.7,23.3,13.3,13.3,20.0,6.7,16.7,15.7,4.9,10.8,5.8,18.3,5.6,13.1,5.9,13,6.3,16.6,1.1,4.6,8.2,20.7,5.4,13.9
+Mistral 7B v03,https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3,True,6.7,13.3,6.7,16.7,6.7,3.3,10.0,9.0,6.7,15.1,9.8,19.8,4.3,11.7,9.6,19.3,5.8,12.5,0.9,3.9,10.4,24.1,6.8,15.2
+Codestral 22B,https://mistral.ai/news/codestral/,True,26.7,40.0,13.3,30.0,16.7,10.0,40.0,25.2,28.9,43.5,34,50.8,17.4,32.7,31.6,49.2,24,40.6,12.2,27.1,34.5,52.4,26.1,42.3
+DeepSeek-V2.5,https://www.deepseek.com,True,33.3,56.7,33.3,53.3,36.7,20.0,46.7,40.0,37.8,47.4,51.9,59.6,37.7,50,55.5,66.3,40.2,45,25.4,38,45.7,52.6,42,51.3
+DeepSeek-33B,https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct,True,36.7,40.0,23.3,43.3,36.7,13.3,36.7,32.9,28,41.3,33.8,49,21.3,33.1,39.1,55.9,25.9,38.7,11.4,29.2,35.2,56.3,27.8,43.4
+DeepSeek-6.7B,https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct,True,16.7,43.3,13.3,20.0,16.7,6.7,30.0,21.0,19.8,35.6,30.9,44.8,19.2,30.1,25.1,45.3,18.6,33,6,17.6,25.9,44.3,20.8,35.8
+DeepSeek-1.3B,https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct,True,6.7,10.0,16.7,20.0,13.3,0.0,13.3,11.4,10.8,20.2,10.3,21.9,10.8,22.2,15.3,26.6,8.2,15.4,0.5,2.4,12.8,28.3,9.8,19.6
+o1-preview,https://openai.com/index/introducing-openai-o1-preview/,True,80.0,66.7,70.0,70.0,53.3,63.3,73.3,68.1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+o1-mini,https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/,True,70.0,70.0,76.7,66.7,63.3,50.0,66.7,66.2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Claude 3.5 Sonnet 20240620,https://www.anthropic.com/news/claude-3-5-sonnet,True,36.7,73.3,30.0,43.3,40.0,33.3,60.0,45.2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Claude 3 Haiku 20240307,https://www.anthropic.com/news/claude-3-family,True,30.0,26.7,30.0,30.0,23.3,6.7,26.7,24.8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Llama 3.1 405B,https://ai.meta.com/blog/meta-llama-3-1/,True,36.7,43.3,36.7,40.0,36.7,36.7,46.7,39.5,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Llama 3.1 70B,https://ai.meta.com/blog/meta-llama-3-1/,True,40.0,43.3,23.3,36.7,33.3,23.3,36.7,33.8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Mistral Large 2,https://mistral.ai/news/mistral-large-2407/,True,43.3,43.3,33.3,40.0,40.0,33.3,56.7,41.4,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Codestral Mamba 7B,https://mistral.ai/news/codestral-mamba/,True,23.3,26.7,16.7,20.0,10.0,10.0,33.3,20.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Mixtral 8x22b Instruct v0.1,https://mistral.ai/news/mixtral-8x22b/,True,20.0,33.3,16.7,26.7,26.7,3.3,26.7,21.9,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Mixtral 8x7B Instruct v0.1,https://mistral.ai/news/mixtral-of-experts/,True,6.7,16.7,6.7,13.3,13.3,3.3,16.7,11.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Gemma2 IT 27B,https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf,True,26.7,36.7,23.3,26.7,20.0,23.3,43.3,28.6,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
