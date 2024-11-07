@@ -112,18 +112,25 @@ def main():
                      line["cornercase_greedy"], line["complex_greedy"], line["codesense_greedy"],
                      ])
         csv_data.append(new_line)
+    title_line = sorted(csv_data[0])
     output_csv = "140_mhpp.csv"
     save_csv(output_csv, csv_data)
+    return title_line
 
 
 def new_main():
     excel_path = "excels/MHPP_ICLR.xlsx"
     df = pd.read_excel(excel_path, sheet_name="MHPP_leaderboard")
     csv_data = [df.columns.tolist()] + df.values.tolist()
+    title_line = sorted(csv_data[0])
     output_csv = "new_mhpp.csv"
     save_csv(output_csv, csv_data)
+    return title_line
 
 
 if __name__ == '__main__':
-    main()
-    new_main()
+    old_title_line = main()
+    new_title_line = new_main()
+    diff = set(old_title_line) - set(new_title_line)
+    print(diff)
+    assert old_title_line == new_title_line
