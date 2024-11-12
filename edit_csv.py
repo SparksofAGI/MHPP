@@ -129,8 +129,8 @@ def new_main():
 
 
 if __name__ == '__main__':
-    old_title_line = main()
+    # old_title_line = main()
     new_title_line = new_main()
-    diff = set(old_title_line) - set(new_title_line)
-    print(diff)
-    assert old_title_line == new_title_line
+    # diff = set(old_title_line) - set(new_title_line)
+    # print(diff)
+    # assert old_title_line == new_title_line

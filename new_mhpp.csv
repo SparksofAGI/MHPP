@@ -27,3 +27,5 @@ Codestral Mamba 7B,https://mistral.ai/news/codestral-mamba/,True,23.3,26.7,16.7,
 Mixtral 8x22b Instruct v0.1,https://mistral.ai/news/mixtral-8x22b/,True,20.0,33.3,16.7,26.7,26.7,3.3,26.7,21.9,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
 Mixtral 8x7B Instruct v0.1,https://mistral.ai/news/mixtral-of-experts/,True,6.7,16.7,6.7,13.3,13.3,3.3,16.7,11.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
 Gemma2 IT 27B,https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf,True,26.7,36.7,23.3,26.7,20.0,23.3,43.3,28.6,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Claude 3.5 Sonnet 20241022,https://www.anthropic.com/news/claude-3-5-sonnet,True,50.0,70.0,33.3,46.7,40.0,43.3,53.3,48.1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+Claude 3 Haiku 20241022,https://www.anthropic.com/claude/haiku,True,43.3,43.3,36.7,40.0,40.0,30.0,50.0,40.5,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
