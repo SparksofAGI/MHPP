@@ -21,9 +21,9 @@ The dataset can be found in the `data` directory, which includes details of each
 2. Save the result in JSONL format. Each line should at least contain 'function_name', 'prompt', 'difficulty_types', and 'response'.
 3. Run command below to upload your JSONL file to our server, remember to replace "file_name" to your real filename:
 ```shell
-curl -F "file=@file_name.jsonl" http://52.155.102.219:3000/upload
+curl -F "file=@file_name.jsonl" http://ai-universe.cn:7531/upload
 # Example
-# curl -F "file=@gpt4o_2024_05_13.jsonl" http://52.155.102.219:3000/upload
+# curl -F "file=@gpt4o_2024_05_13.jsonl" http://ai-universe.cn:7531/upload
 ```
 4. Wait. ⏳
 5. Get your model result with a detailed report. 📊
